@@ -10,7 +10,7 @@ import java.util.List;
 public class HistoryController {
     @Autowired
     DiceRollLogService diceRollLogService;
-    @GetMapping("/diceLogs")
+    @GetMapping("/GET/diceLogs")
     public List<DiceRollLog> getHistory() {
        return diceRollLogService.getAllLogs();
     }

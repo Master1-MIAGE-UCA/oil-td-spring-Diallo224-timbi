@@ -9,6 +9,7 @@ public class Dice {
     private final Random rand = new Random();
     public int lancerDe(){
         return rand.nextInt(6) + 1;
+
     }
 
 }

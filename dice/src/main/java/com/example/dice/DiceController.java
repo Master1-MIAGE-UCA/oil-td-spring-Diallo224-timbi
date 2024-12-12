@@ -22,12 +22,12 @@ public class DiceController {
     @Autowired
     private DiceRollLogService diceRollLogService;
 
-    @GetMapping("/rollDice")
+    @GetMapping("/GET/rollDice")
     public List<Integer>  singleDiceRoll() {
         return diceRollLogService.rollAndSave(1);
         //return new DiceRollLog(1,List.of(dice.lancerDe()));
     }
-    @GetMapping("/rollDices/{count}")
+    @GetMapping("/GET/rollDices/{count}")
     public List<Integer> multipleRolDices(@PathVariable int count){
         return diceRollLogService.rollAndSave(count);
     }
