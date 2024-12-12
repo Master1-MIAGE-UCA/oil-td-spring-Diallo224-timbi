@@ -12,6 +12,6 @@ public class HistoryController {
     DiceRollLogService diceRollLogService;
     @GetMapping("/diceLogs")
     public List<DiceRollLog> getHistory() {
-        return diceRollLogService.getAllLogs();
+       return diceRollLogService.getAllLogs();
     }
 }

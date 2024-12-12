@@ -31,5 +31,4 @@ public class DiceController {
     public List<Integer> multipleRolDices(@PathVariable int count){
         return diceRollLogService.rollAndSave(count);
     }
-
 }
