@@ -25,5 +25,5 @@ le mem veut dire que nouvoulons une base de donée  en memoire
 git commit -m 'nom comit'
 git push
 git tag Rendu
-git tag --tags
+git push --tags
          
