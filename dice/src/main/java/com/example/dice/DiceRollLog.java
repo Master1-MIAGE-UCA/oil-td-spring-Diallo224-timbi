@@ -23,6 +23,6 @@ public class DiceRollLog {
 
     private LocalDate timstamp;
 
-    public DiceRollLog(int diceCount, List<Integer> results) {
+    public DiceRollLog(int diceCount, List<Integer> results ) {
     }
 }
